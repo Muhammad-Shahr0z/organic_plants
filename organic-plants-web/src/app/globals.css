@@ -10,6 +10,7 @@
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
+  
 }
 
 body,html{
@@ -581,4 +582,15 @@ footer h2{
   .images4 img{
 width: 100%;
   }
+}
+
+
+.clickable-item {
+  cursor: pointer;
+}
+
+.clickable-item a {
+  display: block; 
+  width: 100%;
+  height: 100%;
 }

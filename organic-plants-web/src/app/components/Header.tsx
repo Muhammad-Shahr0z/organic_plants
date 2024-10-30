@@ -33,11 +33,11 @@ if(clicked === false){
 
 {/* Navigation Bar  */}
         <nav>
-            <ul onClick={()=>handleMenu()}>
-                <li><Link href="/" className="Link">Home</Link></li>
-                <li><Link href="about" className="Link">About</Link></li>
-                <li><Link href="services" className="Link">Services</Link></li>
-            </ul>
+        <ul onClick={() => handleMenu()}>
+  <li className="clickable-item"><Link href="/" className="Link">Home</Link></li>
+  <li className="clickable-item"><Link href="/about" className="Link">About</Link></li>
+  <li className="clickable-item"><Link href="/services" className="Link">Services</Link></li>
+</ul>
         </nav>
         
 {/* contact us button */}
