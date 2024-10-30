@@ -251,6 +251,16 @@ opacity: 1;
   display: none;
 }
 
+.clickable-item {
+  cursor: pointer;
+}
+
+.clickable-item a {
+  display: block; 
+  width: 100%;
+  height: 100%;
+}
+
 .Link{
   color: #ffffff;
 }
@@ -585,12 +595,3 @@ width: 100%;
 }
 
 
-.clickable-item {
-  cursor: pointer;
-}
-
-.clickable-item a {
-  display: block; 
-  width: 100%;
-  height: 100%;
-}
